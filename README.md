@@ -1,42 +1,29 @@
-# Expression Tree (Java)
+# Expression Tree Engine in Java
 
-This project implements an arithmetic expression tree in Java.
+## Overview
+This project implements an expression tree in Java to parse and evaluate mathematical expressions.
 
-The program builds a binary tree from a postfix expression and supports
-multiple operations such as traversal, evaluation, simplification, and
-variable detection.
+## Purpose
+The project demonstrates how tree-based data structures can be used to represent and compute expressions in a structured and efficient way.
 
 ## Features
+- Construct expression trees from input expressions
+- Evaluate arithmetic expressions
+- Support operator-based computation
+- Traverse trees (inorder, preorder, postorder)
 
-- Build expression trees from postfix notation
-- Convert expressions to prefix, infix, and postfix formats
-- Evaluate expressions with variable values
-- Simplify expressions using algebraic rules
-- Detect variables used in expressions
-- Compare expressions with commutativity for + and *
+## Tech Stack
+- Java
+- Data Structures (Tree)
+- Algorithms
 
-## Example
+## What I Learned
+- Tree data structure design
+- Expression parsing techniques
+- Recursive evaluation logic
+- Traversal algorithms (DFS-based)
 
-Postfix expression:
-
-y 4 x 0 * + *
-
-Tree representation:
-
-        *
-       / \
-      y   +
-         / \
-        4   *
-           / \
-          x   0
-
-## Project Structure
-
-src/ – Java source code  
-tests/ – assignment test files  
-docs/ – assignment description  
-
-## Author
-
-Weiran Zeng
+## Future Improvements
+- Support more complex expressions (parentheses, variables)
+- Build a parser for full expression strings
+- Add visualization of the expression tree
